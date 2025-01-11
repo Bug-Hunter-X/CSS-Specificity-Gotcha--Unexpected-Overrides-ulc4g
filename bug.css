@@ -1,0 +1,21 @@
+The following CSS code snippet demonstrates an uncommon error related to the specificity of CSS selectors:
+
+```css
+div {
+  color: blue;
+}
+
+.special-class div {
+  color: red;
+}
+
+#special-id div {
+  color: green;
+}
+
+#special-id .special-class div {
+  color: purple;
+}
+```
+
+In this example, the last selector (`#special-id .special-class div`) has the highest specificity because it combines ID and class selectors, making its declaration for `color` override the others.
