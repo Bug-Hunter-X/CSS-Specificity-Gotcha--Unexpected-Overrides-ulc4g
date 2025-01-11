@@ -1,0 +1,1 @@
+This repository demonstrates a subtle CSS specificity issue that can lead to unexpected color rendering.  The bug.css file contains CSS rules that exhibit unexpected behavior due to the order of selector specificity. The bugSolution.css file provides a solution demonstrating how to solve this problem and improve CSS maintainability.
